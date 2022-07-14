@@ -1,0 +1,22 @@
+{
+    "name": "orbdbz-dark",
+    "displayName": "orbDbz",
+    "description": "Dark color",
+    "version": "0.0.1",
+    "publisher": "orbnu",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "orbDbz Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/orbDbz Dark-color-theme.json"
+            }
+        ]
+    }
+}
