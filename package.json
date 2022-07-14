@@ -4,9 +4,20 @@
     "description": "Dark color",
     "version": "0.0.1",
     "publisher": "orbnu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OrbnuMozat/orbDbz-dark"
+    },
     "engines": {
         "vscode": "^1.69.0"
     },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "orbnu",
+        "dbz",
+        "orbDbz"
+    ],
     "categories": [
         "Themes"
     ],
