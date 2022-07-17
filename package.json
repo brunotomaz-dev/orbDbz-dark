@@ -4,6 +4,7 @@
     "description": "Dark color",
     "version": "0.2.0",
     "publisher": "orbnu",
+    "icon": "",
     "repository": {
         "type": "git",
         "url": "https://github.com/OrbnuMozat/orbDbz-dark"
