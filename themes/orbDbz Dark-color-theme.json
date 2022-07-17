@@ -649,12 +649,12 @@
 		},
 		{
 			"scope": [
-				"meta.tag.metadata.meta.void.html entity.other.attribute-name.html",
-				"meta.tag.inline.a.start.html entity.other.attribute-name.html",
-				"meta.tag.metadata.link.void.html entity.other.attribute-name.html",
-				"meta.tag.metadata.doctype.html entity.other.attribute-name.html",
-				"meta.tag.structure.html.start.html entity.other.attribute-name.html",
-				"meta.tag.object.img.void.html entity.other.attribute-name.html",
+				// "meta.tag.metadata.meta.void.html entity.other.attribute-name.html",
+				// "meta.tag.inline.a.start.html entity.other.attribute-name.html",
+				// "meta.tag.metadata.link.void.html entity.other.attribute-name.html",
+				// "meta.tag.metadata.doctype.html entity.other.attribute-name.html",
+				// "meta.tag.structure.html.start.html entity.other.attribute-name.html",
+				// "meta.tag.object.img.void.html entity.other.attribute-name.html",
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.js"
 			],
@@ -677,7 +677,7 @@
 			],
 			"settings": {
 				"foreground": "#006090",
-				"fontStyle": "italic"
+				"fontStyle": "italic bold"
 			}
 		},
 		{
