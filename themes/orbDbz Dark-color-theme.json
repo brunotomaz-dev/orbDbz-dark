@@ -245,22 +245,30 @@
 		},
 		{
 			"scope": [
-				"string constant.other.placeholder",
-				"entity.name.function",
-				"meta.definition.property.js",
+				//"string constant.other.placeholder",
+				//"entity.name.function",
+				//"meta.definition.property.js",
 				"meta.function-call.js",
-				"punctuation.definition.interpolation.end.bracket.curly.scss",
-				"punctuation.definition.interpolation.begin.bracket.curly.scss"
+				//"punctuation.definition.interpolation.end.bracket.curly.scss",
+				//"punctuation.definition.interpolation.begin.bracket.curly.scss"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#18A8D8"
+				"fontStyle": "italic",
+				"foreground": "#2bff00"
 			}
 		},
 		{
 			"scope": [
-				"punctuation.definition.interpolation.end.bracket.curly.scss",
-				"punctuation.definition.interpolation.begin.bracket.curly.scss"
+				"meta.function.js"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2bff00"
+			}
+		},
+		{
+			"scope": [
+				"support.type.object.module.js",
 			],
 			"settings": {
 				"foreground": "#609030"
@@ -752,7 +760,7 @@
 		{
 			"scope": [
 				"entity.other.attribute-name",
-				"support.function",
+				//"support.function",
 				"keyword.control.at-rule.import.css",
 				"keyword.control.flow"
 			],
@@ -778,7 +786,7 @@
 		},
 		{
 			"scope": [
-				"support.function",
+				//"support.function",
 			],
 			"settings": {
 				"foreground": "#8BE9FD",
@@ -826,10 +834,10 @@
 		},
 		{
 			"scope": [
-				"storage.type",
+				"storage.type.function",
 			],
 			"settings": {
-				"foreground": "#ffbb00",
+				"foreground": "#f73bb8",
 				"fontStyle": "italic"
 			}
 		},
