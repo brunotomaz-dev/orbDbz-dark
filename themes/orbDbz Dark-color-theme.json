@@ -204,6 +204,75 @@
 		"tree.indentGuidesStroke": "#484848",
 		"widget.shadow": "#18181830",
 	},
+	"semanticTokenColors": {
+		"function": {
+			"foreground": "#2bff00",
+			"fontStyle": "italic"
+		},
+		"function.declaration": {
+			"foreground": "#2bff00",
+			"fontStyle": "bold"
+		},
+		"function.declaration.readonly": {
+			"foreground": "#2bff00",
+			"fontStyle": "bold"
+		},
+		"function.readonly": {
+			"foreground": "#28d106",
+			"fontStyle": ""
+		},
+		"variable": {
+			"foreground": "#e9eff5b6",
+			"fontStyle": ""
+		},
+		"variable.local": {
+			"foreground": "#90a8c0",
+			"fontStyle": ""
+		},
+		"variable.declaration.local": {
+			"foreground": "#6193c5b6",
+			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#ffbb00",
+			"fontStyle": ""
+		},
+		"property.readonly": {
+			"foreground": "#ffbb00",
+			"fontStyle": "bold"
+		},
+		"parameter": {
+			"foreground": "#ff6600",
+			"fontStyle": ""
+		},
+		"method": {
+			"foreground": "#A818A8",
+			"fontStyle": "italic"
+		},
+		"method.declaration": {
+			"foreground": "#d815d8",
+		},
+		"class": {
+			"foreground": "#ecfd00",
+			"fontStyle": "italic bold"
+		},
+		"namespace": {
+			"foreground": "#0084ff"
+		},
+		"interface": {
+			"foreground": "#89f08e"
+		},
+		"*.defaultLibrary": {
+			"fontStyle": "bold"
+		},
+		"*.declaration": {
+			"fontStyle": "italic"
+		},
+		"*.async": {
+			"fontStyle": "italic bold",
+			"foreground": "#FFA7A7"
+		},
+	},
 	"tokenColors": [
 		{
 			"scope": [
@@ -536,6 +605,14 @@
 			"settings": {
 				"foreground": "#18a8d8",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.property.ts",
+			],
+			"settings": {
+				"foreground": "#00ffdd",
 			}
 		},
 		{
@@ -1132,73 +1209,4 @@
 			}
 		}
 	],
-	"semanticTokenColors": {
-		"function": {
-			"foreground": "#2bff00",
-			"fontStyle": "italic"
-		},
-		"function.declaration": {
-			"foreground": "#2bff00",
-			"fontStyle": "bold"
-		},
-		"function.declaration.readonly": {
-			"foreground": "#2bff00",
-			"fontStyle": "bold"
-		},
-		"function.readonly": {
-			"foreground": "#28d106",
-			"fontStyle": ""
-		},
-		"variable": {
-			"foreground": "#e9eff5b6",
-			"fontStyle": ""
-		},
-		"variable.local": {
-			"foreground": "#90a8c0",
-			"fontStyle": ""
-		},
-		"variable.declaration.local": {
-			"foreground": "#6193c5b6",
-			"fontStyle": ""
-		},
-		"property": {
-			"foreground": "#ffbb00",
-			"fontStyle": ""
-		},
-		"property.readonly": {
-			"foreground": "#ffbb00",
-			"fontStyle": "bold"
-		},
-		"parameter": {
-			"foreground": "#ff6600",
-			"fontStyle": ""
-		},
-		"method": {
-			"foreground": "#A818A8",
-			"fontStyle": "italic"
-		},
-		"method.declaration": {
-			"foreground": "#d815d8",
-		},
-		"class": {
-			"foreground": "#ecfd00",
-			"fontStyle": "italic bold"
-		},
-		"namespace": {
-			"foreground": "#0084ff"
-		},
-		"interface": {
-			"foreground": "#89f08e"
-		},
-		"*.defaultLibrary": {
-			"fontStyle": "bold"
-		},
-		"*.declaration": {
-			"fontStyle": "italic"
-		},
-		"*.async": {
-			"fontStyle": "italic bold",
-			"foreground": "#FFA7A7"
-		},
-	}
 }
