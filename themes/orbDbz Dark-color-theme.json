@@ -296,7 +296,8 @@
 		},
 		{
 			"scope": [
-				"storage.modifier.js"
+				"storage.modifier.js",
+				"storage.modifier.ts"
 			],
 			"settings": {
 				"foreground": "#FF79C6",
