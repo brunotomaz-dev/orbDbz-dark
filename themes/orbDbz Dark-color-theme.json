@@ -238,7 +238,7 @@
 			"fontStyle": ""
 		},
 		"property.readonly": {
-			"foreground": "#ffbb00",
+			"foreground": "#fdca3d",
 			"fontStyle": "bold"
 		},
 		"parameter": {
@@ -253,7 +253,10 @@
 			"foreground": "#d815d8",
 		},
 		"class": {
-			"foreground": "#ecfd00",
+			"foreground": "#00fdfd",
+		},
+		"class.declaration": {
+			"foreground": "#00fdfd",
 			"fontStyle": "italic bold"
 		},
 		"namespace": {
@@ -402,7 +405,8 @@
 				"keyword.control.export",
 			],
 			"settings": {
-				"foreground": "#ff6c8c"
+				"foreground": "#ff6c8c",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -411,7 +415,7 @@
 				"keyword.control.default",
 			],
 			"settings": {
-				"foreground": "#2b5dff",
+				"foreground": "#fa496f",
 				"fontStyle": "bold"
 			}
 		},
@@ -867,7 +871,7 @@
 				"meta.import",
 			],
 			"settings": {
-				"foreground": "#8BE9FD",
+				"foreground": "#e8f8fc",
 			}
 		},
 		{
@@ -935,7 +939,7 @@
 				"storage.type.class",
 			],
 			"settings": {
-				"foreground": "#00fdfd",
+				"foreground": "#fffb00",
 				"fontStyle": "italic"
 			}
 		},
