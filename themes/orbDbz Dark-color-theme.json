@@ -615,6 +615,7 @@
 		{
 			"scope": [
 				"storage.type.property.ts",
+				"storage.type.interface.ts",
 			],
 			"settings": {
 				"foreground": "#00ffdd",
