@@ -222,16 +222,15 @@
 			"fontStyle": ""
 		},
 		"variable": {
-			"foreground": "#e9eff5b6",
+			"foreground": "#8dc1f5b6",
 			"fontStyle": ""
 		},
 		"variable.local": {
-			"foreground": "#90a8c0",
+			"foreground": "#6178c5",
 			"fontStyle": ""
 		},
 		"variable.declaration.local": {
-			"foreground": "#6193c5b6",
-			"fontStyle": ""
+			"foreground": "#6c84f0",
 		},
 		"property": {
 			"foreground": "#ffbb00",
