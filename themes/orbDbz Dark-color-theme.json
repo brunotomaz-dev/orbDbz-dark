@@ -633,7 +633,7 @@
 			"scope": [
 				//"variable.other.property.js",
 				"meta.method.declaration.js",
-				"meta.method.declaration.ts",
+				"variable.other.object.ts meta.method.declaration.ts",
 				"variable.other.object.property.js",
 			],
 			"settings": {
