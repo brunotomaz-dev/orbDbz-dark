@@ -485,8 +485,10 @@
 			"scope": [
 				"comment.line.scss",
 				"comment.line.double-slash.js",
+				"comment.line.double-slash.ts",
 				"punctuation.definition.comment.scss",
 				"punctuation.definition.comment.js",
+				"punctuation.definition.comment.ts",
 				"punctuation.definition.comment.html",
 				"comment.block"
 			],
@@ -633,7 +635,7 @@
 			"scope": [
 				//"variable.other.property.js",
 				"meta.method.declaration.js",
-				"variable.other.object.ts meta.method.declaration.ts",
+				"meta.method.declaration.ts",
 				"variable.other.object.property.js",
 			],
 			"settings": {
