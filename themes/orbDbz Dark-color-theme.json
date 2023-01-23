@@ -232,6 +232,9 @@
 		"variable.declaration.local": {
 			"foreground": "#6c84f0",
 		},
+		"variable.defaultLibrary": {
+			"foreground": "#51ff00",
+		},
 		"property": {
 			"foreground": "#B2CCD6",
 			"fontStyle": ""
@@ -250,6 +253,10 @@
 		},
 		"method.declaration": {
 			"foreground": "#d815d8",
+		},
+		"method.defaultLibrary": {
+			"foreground": "#eeff00",
+			"fontStyle": "italic",
 		},
 		"class": {
 			"foreground": "#00fdfd",
