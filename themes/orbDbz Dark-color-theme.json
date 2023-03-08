@@ -507,7 +507,8 @@
 				"punctuation.definition.comment.js",
 				"punctuation.definition.comment.ts",
 				"punctuation.definition.comment.html",
-				"comment.block"
+				"comment.block",
+				"comment.line.number-sign.python"
 			],
 			"settings": {
 				"foreground": "#6D6F7C",
