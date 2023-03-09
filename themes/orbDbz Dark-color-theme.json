@@ -508,7 +508,8 @@
 				"punctuation.definition.comment.ts",
 				"punctuation.definition.comment.html",
 				"comment.block",
-				"comment.line.number-sign.python"
+				"comment.line.number-sign.python",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"foreground": "#6D6F7C",
