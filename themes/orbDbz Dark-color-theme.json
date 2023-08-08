@@ -469,9 +469,9 @@
 		{
 			"scope": [
 				"keyword.control.at-rule",
-				"punctuation.terminator.rule.css",
+				"punctuation.terminator.rule",
 				"keyword.control.operator",
-				"punctuation.definition.entity.css",
+				"punctuation.definition.entity",
 				"keyword.operator.assignment.js",
 				"punctuation.separator.comma.js",
 				"punctuation.definition.binding-pattern.object.js"
@@ -483,7 +483,7 @@
 		{
 			"scope": [
 				"punctuation.definition",
-				"string.quoted.single.scss"
+				"string.quoted.single"
 			],
 			"settings": {
 				"foreground": "#A7A8AF"
@@ -500,13 +500,9 @@
 		},
 		{
 			"scope": [
-				"comment.line.scss",
-				"comment.line.double-slash.js",
-				"comment.line.double-slash.ts",
-				"punctuation.definition.comment.scss",
-				"punctuation.definition.comment.js",
-				"punctuation.definition.comment.ts",
-				"punctuation.definition.comment.html",
+				"comment.line",
+				"comment.line.double-slash",
+				"punctuation.definition.comment",
 				"comment.block",
 				"comment.line.number-sign.python",
 				"string.quoted.docstring.multi.python"
@@ -527,7 +523,7 @@
 		{
 			"scope": [
 				"entity.name.tag",
-				"meta.selector.css entity.name.tag.css",
+				"meta.selector entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
@@ -546,7 +542,7 @@
 		{
 			"scope": [
 				"variable.parameter.js",
-				"variable.parameter.keyframe-list.css",
+				"variable.parameter.keyframe-list",
 				"meta.function meta.var.expr.js string.template.js variable.other",
 				"meta.block meta.block meta.block variable.other",
 				"meta.var.expr.js variable.other",
@@ -849,12 +845,32 @@
 				"source.css support.type.property-name",
 				"source.sass support.type.property-name",
 				"source.scss support.type.property-name",
+				"meta.property-list.scss entity.name.tag.css",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#784890"
+			}
+		},
+		{
+			"scope": [
+				"variable.scss",
+			],
+			"settings": {
+				"foreground": "#8BE9FD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"support.constant.vendored.property-value.css",
+				"support.type.vendored.property-name.css"
+			],
+			"settings": {
+				"foreground": "#82abb6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -882,7 +898,7 @@
 			"scope": [
 				"entity.other.attribute-name",
 				"support.function",
-				"keyword.control.at-rule.import.css",
+				"keyword.control.at-rule.import",
 			],
 			"settings": {
 				"foreground": "#ff006a"
@@ -917,7 +933,6 @@
 		{
 			"scope": [
 				"entity.other.attribute-name.pseudo-class",
-				"entity.name.tag.css",
 				"support.constant",
 				"meta.jsx.children.js"
 			],
