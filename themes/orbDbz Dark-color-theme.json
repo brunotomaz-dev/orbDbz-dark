@@ -221,7 +221,7 @@
 		"debugIcon.breakpointForeground": "#f29e74",
 		"debugIcon.breakpointDisabledForeground": "#f29e7480",
 		"descriptionForeground": "#707a8c",
-		"diffEditor.insertedTextBackground": "#83c06efb",
+		"diffEditor.insertedTextBackground": "#2f4926fb",
 		"diffEditor.removedTextBackground": "#e99aa0d7",
 		"diffEditor.insertedLineBackground": "#2d2e30ef",
 		"diffEditor.removedLineBackground": "#2d2e30ef",
