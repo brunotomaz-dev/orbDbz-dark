@@ -290,7 +290,9 @@
 			"foreground": "#51ff00",
 		},
 		"property": {
-			"foreground": "#B2CCD6",
+			"foreground": "#c4fdf8",
+		},
+		"property.declaration": {
 			"fontStyle": ""
 		},
 		"property.readonly": {
@@ -298,16 +300,20 @@
 			"fontStyle": "bold"
 		},
 		"selfParameter": {
-				"foreground": "#784890",
+				"foreground": "#4b91ec",
 				"fontStyle": "italic",
+		},
+		"selfParameter.declaration": {
+			"foreground": "#4b91ec",
 			
 		},
 		"parameter": {
 			"foreground": "#ff6600",
-			"fontStyle": ""
+			"fontStyle": "italic"
 		},
 		"parameter.declaration": {
 			"foreground": "#e26b1b",
+			"fontStyle": ""
 		},
 		"method": {
 			"foreground": "#2BCCB6",
@@ -321,32 +327,42 @@
 			"fontStyle": "italic",
 		},
 		"class": {
-			"foreground": "#00fdfd",
+			"foreground": "#784890",
 		},
 		"class.declaration": {
-			"foreground": "#00fdfd",
-			"fontStyle": "italic bold"
+			"foreground": "#784890",
+			"fontStyle": "bold"
 		},
 		"class.decorator": {
-			"foreground": "#eca4c6",
-			"fontStyle": "italic"
-		},
-		"class.typeHint": { 
 			"foreground": "#62D7FA",
 			"fontStyle": "italic"
 		},
-		"class.builtin": {
+		"class.decorator.builtin": {
+			"foreground": "#faeb62",
+			"fontStyle": "italic"
+		},
+		"class.typeHint": { 
+			"foreground": "#00fdfd",
+			"fontStyle": "italic"
+		},
+		"class.typeHint.builtin": {
 			"foreground": "#bf63fd"
+		},
+		"class.builtin": {
+			"foreground": "#62D7FA"
 		},
 		"namespace": {
 			"foreground": "#0084ff"
 		},
 		"module": {
+			"foreground": "#eca4c6",
+		},
+		"module.typeHint": {
 			"foreground": "#d815d8",
 			"fontStyle": "italic"
 		},
-		"magicFunction": {
-			"foreground": "#8BE9FD",
+		"magicFunction.declaration": {
+			"foreground": "#1efd00",
 			"fontStyle": "italic"
 		},
 		"interface": {
@@ -615,7 +631,7 @@
 				"meta.function.decorator.python entity.name.function"
 			],
 			"settings": {
-				"foreground": "#cca8f5"
+				"foreground": "#ffa600"
 			}
 		},
 		{
@@ -742,6 +758,7 @@
 			],
 			"settings": {
 				"foreground": "#2bccb6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -805,7 +822,7 @@
 				"punctuation.separator.key-value.html"
 			],
 			"settings": {
-				"foreground": "#D87818"
+				"foreground": "#B2CCD6"
 			}
 		},
 		{
@@ -843,7 +860,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#F06000"
+				"foreground": "#e78b4e"
 			}
 		},
 		{
