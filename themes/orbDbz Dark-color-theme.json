@@ -276,15 +276,15 @@
 			"fontStyle": ""
 		},
 		"variable": {
-			"foreground": "#8dc1f5b6",
+			"foreground": "#dadada",
 			"fontStyle": ""
 		},
 		"variable.local": {
-			"foreground": "#6178c5",
+			"foreground": "#F0C0A8",
 			"fontStyle": ""
 		},
 		"variable.declaration.local": {
-			"foreground": "#6c84f0",
+			"foreground": "#F0C0A8",
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#51ff00",
@@ -297,16 +297,24 @@
 			"foreground": "#cce6f0",
 			"fontStyle": "bold"
 		},
+		"selfParameter": {
+				"foreground": "#784890",
+				"fontStyle": "italic",
+			
+		},
 		"parameter": {
 			"foreground": "#ff6600",
 			"fontStyle": ""
 		},
+		"parameter.declaration": {
+			"foreground": "#e26b1b",
+		},
 		"method": {
-			"foreground": "#A818A8",
+			"foreground": "#2BCCB6",
 			"fontStyle": ""
 		},
 		"method.declaration": {
-			"foreground": "#d815d8",
+			"foreground": "#2BCCB6",
 		},
 		"method.defaultLibrary": {
 			"foreground": "#eeff00",
@@ -319,8 +327,27 @@
 			"foreground": "#00fdfd",
 			"fontStyle": "italic bold"
 		},
+		"class.decorator": {
+			"foreground": "#eca4c6",
+			"fontStyle": "italic"
+		},
+		"class.typeHint": { 
+			"foreground": "#62D7FA",
+			"fontStyle": "italic"
+		},
+		"class.builtin": {
+			"foreground": "#bf63fd"
+		},
 		"namespace": {
 			"foreground": "#0084ff"
+		},
+		"module": {
+			"foreground": "#d815d8",
+			"fontStyle": "italic"
+		},
+		"magicFunction": {
+			"foreground": "#8BE9FD",
+			"fontStyle": "italic"
 		},
 		"interface": {
 			"foreground": "#89f08e"
